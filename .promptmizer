@@ -1,0 +1,13 @@
+# This is some suggestion values for the promp string of your Terminal
+# More suggestions are comming...
+
+# If you wanna show Git info on your PS1, uncomment the block below
+#	__git_ps1 () { 
+#		local b="$(git symbolic-ref HEAD 2>/dev/null)";
+#		if [ -n "$b" ]; then
+#			printf " (%s)" "${b##refs/heads/}";
+#		fi
+#	}
+
+# Nice Git Blue
+#export PS1='\e[94m[\W]\e[96m$(__git_ps1 "%s") \e[94m$ \e[37m'
